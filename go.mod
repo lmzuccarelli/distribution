@@ -14,6 +14,7 @@ require (
 	github.com/distribution/reference v0.6.0
 	github.com/docker/go-events v0.0.0-20190806004212-e31b211e4f1c
 	github.com/docker/go-metrics v0.0.1
+	github.com/docker/libtrust v0.0.0-20160708172513-aabc10ec26b7
 	github.com/go-jose/go-jose/v4 v4.0.2
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/handlers v1.5.2
