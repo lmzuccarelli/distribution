@@ -336,9 +336,9 @@ func (registry *Registry) ListenAndServe() error {
 // Shutdown gracefully shuts down the registry's HTTP server and application object.
 func (registry *Registry) Shutdown(ctx context.Context) error {
 	err := registry.server.Shutdown(ctx)
-	if appErr := registry.app.Shutdown(); appErr != nil {
-		err = errors.Join(err, appErr)
-	}
+	//if appErr := registry.app.Shutdown(); appErr != nil {
+	//	err = errors.Join(err, appErr)
+	//}
 	return err
 }
 
