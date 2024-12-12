@@ -8,6 +8,8 @@ import (
 	"github.com/opencontainers/go-digest"
 )
 
+type ManifestBuilder interface{}
+
 // Manifest represents a registry object specifying a set of
 // references and an optional target
 type Manifest interface {
